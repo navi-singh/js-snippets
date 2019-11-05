@@ -1,3 +1,4 @@
+// To test if all element of an array returns true on the predicate
 const all = (arr, fn = Boolean) => arr.every(fn);
 
 const input = [4, 0, 2, 6];
